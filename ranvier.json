@@ -1,6 +1,24 @@
 {
   "port": 4000,
   "bundles": [
+    "hylands-areas",
+    "hylands-channels",
+    "hylands-classes",
+    "hylands-combat",
+    "hylands-commands",
+    "hylands-debug",
+    "hylands-effects",
+    "hylands-input-events",
+    "hylands-lib",
+    "hylands-npc-behaviors",
+    "hylands-player-events",
+    "hylands-quests",
+    "hylands-crafting",
+    "hylands-vendor-npcs",
+    "hylands-player-groups",
+    "hylands-progressive-respawn",
+    "hylands-telnet-networking",
+    "hylands-websocket-networking"
   ],
   "dataSources": {
     "YamlArea": {

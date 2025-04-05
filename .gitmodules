@@ -1,0 +1,54 @@
+[submodule "bundles/hylands-areas"]
+	path = bundles/hylands-areas
+	url = https://github.com/HylandsApp/hylands-areas
+[submodule "bundles/hylands-channels"]
+	path = bundles/hylands-channels
+	url = https://github.com/HylandsApp/hylands-channels
+[submodule "bundles/hylands-classes"]
+	path = bundles/hylands-classes
+	url = https://github.com/HylandsApp/hylands-classes
+[submodule "bundles/hylands-combat"]
+	path = bundles/hylands-combat
+	url = https://github.com/HylandsApp/hylands-combat
+[submodule "bundles/hylands-commands"]
+	path = bundles/hylands-commands
+	url = https://github.com/HylandsApp/hylands-commands
+[submodule "bundles/hylands-debug"]
+	path = bundles/hylands-debug
+	url = https://github.com/HylandsApp/hylands-debug
+[submodule "bundles/hylands-effects"]
+	path = bundles/hylands-effects
+	url = https://github.com/HylandsApp/hylands-effects
+[submodule "bundles/hylands-input-events"]
+	path = bundles/hylands-input-events
+	url = https://github.com/HylandsApp/hylands-input-events
+[submodule "bundles/hylands-lib"]
+	path = bundles/hylands-lib
+	url = https://github.com/HylandsApp/hylands-lib
+[submodule "bundles/hylands-npc-behaviors"]
+	path = bundles/hylands-npc-behaviors
+	url = https://github.com/HylandsApp/hylands-npc-behaviors
+[submodule "bundles/hylands-player-events"]
+	path = bundles/hylands-player-events
+	url = https://github.com/HylandsApp/hylands-player-events
+[submodule "bundles/hylands-quests"]
+	path = bundles/hylands-quests
+	url = https://github.com/HylandsApp/hylands-quests
+[submodule "bundles/hylands-crafting"]
+	path = bundles/hylands-crafting
+	url = https://github.com/HylandsApp/hylands-crafting
+[submodule "bundles/hylands-vendor-npcs"]
+	path = bundles/hylands-vendor-npcs
+	url = https://github.com/HylandsApp/hylands-vendor-npcs
+[submodule "bundles/hylands-player-groups"]
+	path = bundles/hylands-player-groups
+	url = https://github.com/HylandsApp/hylands-player-groups
+[submodule "bundles/hylands-progressive-respawn"]
+	path = bundles/hylands-progressive-respawn
+	url = https://github.com/HylandsApp/hylands-progressive-respawn
+[submodule "bundles/hylands-telnet-networking"]
+	path = bundles/hylands-telnet-networking
+	url = https://github.com/HylandsApp/hylands-telnet-networking
+[submodule "bundles/hylands-websocket-networking"]
+	path = bundles/hylands-websocket-networking
+	url = https://github.com/HylandsApp/hylands-websocket-networking
