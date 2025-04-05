@@ -16,7 +16,7 @@ async function prompt() {
   });
 
   return new Promise((resolve, reject) => {
-    rl.question('Do you want to install the example bundles? [Y/n] ', resolve);
+    rl.question('Do you want to install the Hylands bundles? [Y/n] ', resolve);
   });
 }
 
@@ -33,26 +33,26 @@ async function main() {
     process.exit(0);
   }
 
-  const githubPath = 'https://github.com/ranviermud/';
+  const githubPath = 'https://github.com/HylandsApp/';
   const defaultBundles = [
-    'https://github.com/RanvierMUD/bundle-example-areas',
-    'https://github.com/RanvierMUD/bundle-example-channels',
-    'https://github.com/RanvierMUD/bundle-example-classes',
-    'https://github.com/RanvierMUD/bundle-example-combat',
-    'https://github.com/RanvierMUD/bundle-example-commands',
-    'https://github.com/RanvierMUD/bundle-example-debug',
-    'https://github.com/RanvierMUD/bundle-example-effects',
-    'https://github.com/RanvierMUD/bundle-example-input-events',
-    'https://github.com/RanvierMUD/bundle-example-lib',
-    'https://github.com/RanvierMUD/bundle-example-npc-behaviors',
-    'https://github.com/RanvierMUD/bundle-example-player-events',
-    'https://github.com/RanvierMUD/bundle-example-quests',
-    'https://github.com/RanvierMUD/simple-crafting',
-    'https://github.com/RanvierMUD/vendor-npcs',
-    'https://github.com/RanvierMUD/player-groups',
-    'https://github.com/RanvierMUD/progressive-respawn',
-    'https://github.com/RanvierMUD/telnet-networking',
-    'https://github.com/RanvierMUD/websocket-networking',
+    'https://github.com/HylandsApp/hylands-areas',
+    'https://github.com/HylandsApp/hylands-channels',
+    'https://github.com/HylandsApp/hylands-classes',
+    'https://github.com/HylandsApp/hylands-combat',
+    'https://github.com/HylandsApp/hylands-commands',
+    'https://github.com/HylandsApp/hylands-debug',
+    'https://github.com/HylandsApp/hylands-effects',
+    'https://github.com/HylandsApp/hylands-input-events',
+    'https://github.com/HylandsApp/hylands-lib',
+    'https://github.com/HylandsApp/hylands-npc-behaviors',
+    'https://github.com/HylandsApp/hylands-player-events',
+    'https://github.com/HylandsApp/hylands-quests',
+    'https://github.com/HylandsApp/hylands-crafting',
+    'https://github.com/HylandsApp/hylands-vendor-npcs',
+    'https://github.com/HylandsApp/hylands-player-groups',
+    'https://github.com/HylandsApp/hylands-progressive-respawn',
+    'https://github.com/HylandsApp/hylands-telnet-networking',
+    'https://github.com/HylandsApp/hylands-websocket-networking',
   ];
   const enabledBundles = [];
 
@@ -85,7 +85,7 @@ run the following commands:
 
   git commit -m "Install bundles"
 
-You're all set! See https://ranviermud.com for guides and API references
+You've installed the Hylands bundles! See https://ranviermud.com for guides and engine and API references
 `);
 
   process.exit(0);
